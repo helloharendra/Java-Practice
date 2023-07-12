@@ -3,7 +3,7 @@ import java.util.Scanner;
 /**
  * practice1
  */
-public class practice1 {
+public class tableofnNumbers {
   
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
