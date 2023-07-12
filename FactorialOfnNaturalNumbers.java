@@ -1,22 +1,19 @@
 import java.util.Scanner;
 
-/**
- * SumOfnNaturalNumbers
- */
-public class SumOfnNaturalNumbers {
-
+public class FactorialOfnNaturalNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Please Enter Number");
-
+        System.out.print("Enter a number: ");
         int n = sc.nextInt();
-        int sum = 0;
+        Long factorial = 1L;
 
         for (int i = 1; i <= n; i++) {
-            sum = sum + i;
-
+            factorial = factorial * i;
         }
-        System.out.println(sum);
+
+        System.out.println(factorial);
         sc.close();
+
     }
+
 }
